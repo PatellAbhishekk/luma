@@ -13,7 +13,7 @@
 
 body{
     font-family: "inter",sans-serif;
-    background: radial-gradient(circle at 18.7% 37.8%, rgb(230, 110, 110) 0%, rgb(8, 177, 250) 90%);
+    background: radial-gradient(circle at 18.7% 37.8%, rgba(245, 238, 238, 0.541) 0%, rgba(8, 177, 250, 0.596) 90%);
 }
 /* MARK: General 
 */
@@ -39,8 +39,18 @@ header .luma-icon{
 }
 .luma-icon-mn{
     height: 50px;
-    color: var(--gray);
+    color: var(--gray);   
 }
+.luma-icon-ft:hover{
+    color: black;
+}
+.text-gredient{
+    color: red;
+    background: radial-gradient(circle at top left,#099ef1 0%,#6863f8 18.82%,#d84ffa 32.6%,#f058c5 52.83%,#ff4f90 68.03%,#ff6558 87.66%,#ff891f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /*MARK: Header 
 */
 header{
@@ -63,6 +73,12 @@ main{
     flex-direction: column;
     align-items: start;
     gap: 20px;
+    justify-content: center;
+}
+.left h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1;
 }
 .right {
     width: 60%;

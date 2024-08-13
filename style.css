@@ -26,19 +26,21 @@ a{
     margin: 0 auto;
 }
 header .luma-icon{
-    height: 20px;
+    height: 25px;
     color: var(--gray);
     cursor: pointer;
+
 }
 .luma-icon:hover{
     color: black;
 }
 .luma-icon-ft{
-    height: 15px;
+    height: 20px;
     color: var(--gray);
+
 }
 .luma-icon-mn{
-    height: 50px;
+    height: 55px;
     color: var(--gray);   
 }
 .luma-icon-ft:hover{
@@ -56,11 +58,13 @@ header .luma-icon{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 16px;
+    margin-bottom: 30px;
 }
 header nav {
     display: flex;
     gap: 15px;
+    color: var(--gray);   
 }
 /* MARK: main 
 */
@@ -80,6 +84,19 @@ main{
     font-weight: 600;
     line-height: 1;
 }
+.left p {
+    color:var(--gray);
+    font-size: 20px;
+    line-height: 1.5;
+}
+.left button{
+    background: rgb(51, 53, 55);
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    padding: 7px 15px;
+    font-size: 22px;
+}
 .right {
     width: 60%;
 }
@@ -88,6 +105,10 @@ main{
 }
 /*MARK: footer 
 */
+footer{
+    border-top: 1px solid rgba(128, 128, 128,0.29);
+    padding-top: 20px;
+}
 .primary {
     display: flex;
     justify-content: space-between;

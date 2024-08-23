@@ -1,119 +1,146 @@
 /* MARK: Reset 
 */
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /*MARK: Variables 
 */
-:root{
-    --gray:rgba(19, 21, 23, 0.36);
+:root {
+  --gray: rgba(19, 21, 23, 0.36);
 }
 
-body{
-    font-family: "inter",sans-serif;
-    background: radial-gradient(circle at 18.7% 37.8%, rgba(245, 238, 238, 0.541) 0%, rgba(8, 177, 250, 0.596) 90%);
+body {
+  font-family: "inter", sans-serif;
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgba(245, 238, 238, 0.541) 0%,
+    rgba(8, 177, 250, 0.596) 90%
+  );
 }
 /* MARK: General 
 */
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
-.container{
-    width: 1100px;
-    margin: 0 auto;
+.container {
+  width: 1100px;
+  margin: 0 auto;
 }
-header .luma-icon{
-    height: 25px;
-    color: var(--gray);
-    cursor: pointer;
-
+header .luma-icon {
+  height: 25px;
+  color: var(--gray);
+  cursor: pointer;
 }
-.luma-icon:hover{
-    color: black;
+.luma-icon:hover {
+  color: black;
 }
-.luma-icon-ft{
-    height: 20px;
-    color: var(--gray);
-
+.luma-icon-ft {
+  height: 20px;
+  color: var(--gray);
 }
-.luma-icon-mn{
-    height: 55px;
-    color: var(--gray);   
+.luma-icon-mn {
+  height: 55px;
+  color: var(--gray);
 }
-.luma-icon-ft:hover{
-    color: black;
+.luma-icon-ft:hover {
+  color: black;
 }
-.text-gredient{
-    color: red;
-    background: radial-gradient(circle at top left,#099ef1 0%,#6863f8 18.82%,#d84ffa 32.6%,#f058c5 52.83%,#ff4f90 68.03%,#ff6558 87.66%,#ff891f 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.text-gredient {
+  color: red;
+  background: radial-gradient(
+    circle at top left,
+    #099ef1 0%,
+    #6863f8 18.82%,
+    #d84ffa 32.6%,
+    #f058c5 52.83%,
+    #ff4f90 68.03%,
+    #ff6558 87.66%,
+    #ff891f 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*MARK: Header 
 */
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 16px;
-    margin-bottom: 30px;
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  margin-bottom: 30px;
 }
 header nav {
-    display: flex;
-    gap: 15px;
-    color: var(--gray);   
+  display: flex;
+  gap: 15px;
+  color: var(--gray);
 }
+.btn {
+  transition: all -3s;
+  border-radius: 5px;
+  border: 0.1px solid black;
+  padding: 1.2px;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  border: 1px solid black;
+  background: white;
+  color: black;
+  border-radius:8px;
+  transform: scale(1.0);
+  /* padding: 2px; */
+}
+
 /* MARK: main 
 */
-main{
-    display: flex;
+main {
+  display: flex;
 }
-.left{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 20px;
-    justify-content: center;
+.left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  justify-content: center;
 }
 .left h1 {
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 1;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1;
 }
 .left p {
-    color:var(--gray);
-    font-size: 20px;
-    line-height: 1.5;
+  color: var(--gray);
+  font-size: 20px;
+  line-height: 1.5;
 }
-.left button{
-    background: rgb(51, 53, 55);
-    cursor: pointer;
-    border-radius: 8px;
-    color: white;
-    padding: 7px 15px;
-    font-size: 22px;
+.left button {
+  background: rgb(51, 53, 55);
+  cursor: pointer;
+  border-radius: 8px;
+  color: white;
+  padding: 7px 15px;
+  font-size: 22px;
 }
 .right {
-    width: 60%;
+  width: 60%;
 }
-.right video{
-    width: 100%;
+.right video {
+  width: 100%;
 }
 /*MARK: footer 
 */
-footer{
-    border-top: 1px solid rgba(128, 128, 128,0.29);
-    padding-top: 20px;
+footer {
+  border-top: 1px solid rgba(128, 128, 128, 0.29);
+  padding-top: 20px;
 }
 .primary {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-.secondary{
-    margin-bottom: 20px;
+.secondary {
+  margin-bottom: 20px;
 }
-

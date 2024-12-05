@@ -24,4 +24,4 @@ We welcome contributions to Luma! If you have any ideas or suggestions for impro
 
 ## License
 
-Luma is licensed under the MIT License. See the LICENSE file for more information.
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://raw.githubusercontent.com/PatellAbhishekk/luma/refs/heads/main/LICENSE)

@@ -1,3 +1,0 @@
-# luma
-
-A landing page
